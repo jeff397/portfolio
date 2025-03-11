@@ -1,0 +1,27 @@
+#about {
+  width: 90%;
+  height: 85vh;
+  scroll-margin-top: 110px;
+  padding-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: "playfair display";
+}
+
+.about-content {
+  padding: 50px;
+  max-width: 600px;
+}
+
+.about-content h3 {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 20px;
+}
