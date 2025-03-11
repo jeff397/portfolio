@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Riding Cities",
+    "image": "images/riding-cities.webp",
+    "description": "Pour cette mission, il m'a été demandé d'actualiser la page internet de Riding Cities, une association sportive qui promeut le skate en région. Il a donc fallu créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Puis modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes)."
+  },
+
+  {
+    "id": 2,
+    "title": "Booki",
+    "image": "images/booki.webp",
+    "description": "L’entreprise Booki a souhaité développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS. Afin d'accomplir ma mission, j'ai dû découper la maquette figma pour trouver la structure HTML adéquat. Puis à partir de cette structure, j'ai pu développer un code HTML en prenant en compte toute les spécifications techniques et procéder à la mise en forme et à la stylisation du site."
+  },
+
+  {
+    "id": 3,
+    "title": "OhMyFood",
+    "image": "images/ohmyfood.webp",
+    "description": "Cette mission a consisté à développer un site qui répertorie les menus de restaurants gastronomiques. Dans un esprit de simplification du code, j'ai utilisé SASS pour découper le code CSS en différents composants. Il m'a été demandé de développer ce site en mobile-first. J'ai donc commencé par la version mobile, puis tablette et enfin desktop. Il a fallu aussi intégrer des animations Css. "
+  },
+
+  {
+    "id": 4,
+    "title": "Print-it",
+    "image": "images/print-it.webp",
+    "description": "Une petite imprimerie familiale, Print-It, m'a demandé de dynamiser son site internet statique. Il m'a donc fallu créer un caroussel d'image en défilement infini en utilisant le langage Javascript. J'ai inséré des fléches cliquables gauche et droite permettant d'avancer ou de reculer. Puis, j'ai intégré des bullets points permettant de connaître la position de l'image affiché par rapport à l'image de départ."
+  },
+
+  {
+    "id": 5,
+    "title": "Sophie Bluel",
+    "image": "images/sophie bluel.webp"
+  },
+
+  {
+    "id": 6,
+    "title": "Kasa",
+    "image": "images/kasa.webp"
+  }
+]
