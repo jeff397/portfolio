@@ -1,5 +1,5 @@
 import "./header.css";
-import logo from "../../assets/images/Logo.png";
+import logo from "../../../public/images/Logo.png";
 
 function Header() {
   return (
@@ -8,8 +8,8 @@ function Header() {
         <img src={logo} alt="Logo" className="logo" />
       </a>
       <nav className="nav-links">
-        <a href="#presentation">Présentation</a>
-        <a href="#projets">Projets</a>
+        <a href="#about">Présentation</a>
+        <a href="#projects">Projets</a>
         <a href="/CV.pdf" download>
           Télécharger CV
         </a>
