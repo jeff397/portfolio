@@ -1,4 +1,5 @@
 import "./hero.css";
+import "./../../Styles/keyframes.css";
 
 function Hero() {
   return (

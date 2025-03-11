@@ -33,15 +33,6 @@
   animation-delay: 2s;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 .hero-buttons {
   margin-top: 20px;
   display: flex;
@@ -52,17 +43,6 @@
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   animation: fadeIn 0.5s ease-out forwards;
   animation-delay: 4s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .github-button,
