@@ -9,7 +9,6 @@
 
 .hero-title,
 .hero-subtitle {
-  font-family: "Playfair Display";
   font-weight: 900;
   font-size: 5rem;
   line-height: 4rem;
@@ -39,7 +38,7 @@
   padding-left: 30px;
   gap: 15px;
   opacity: 0;
-  transform: translateY(20px); /* Décalage vers le bas */
+  transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   animation: fadeIn 0.5s ease-out forwards;
   animation-delay: 4s;
@@ -62,7 +61,6 @@
 .github-button {
   background-color: #333;
   color: white;
-  font-family: "playfair display";
 }
 
 .github-button:hover {
@@ -72,15 +70,9 @@
 .contact-button {
   background-color: white;
   color: black;
-  font-family: "playfair display";
   border: 1px solid;
 }
 
 .contact-button:hover {
   background-color: #f0f0f0;
-}
-
-.github-button:active,
-.contact-button:active {
-  transform: scale(0.95);
 }
