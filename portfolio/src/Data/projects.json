@@ -129,6 +129,31 @@
   {
     "id": 6,
     "title": "Kasa",
-    "image": "images/kasa.webp"
+    "image": "images/kasa.webp",
+    "description": "Kasa est une agence de location d'appartements entre particuliers. Le site ayant plus de 10 ans, une refonte totale a été lancé avec javascript et node.js côté backend et React coté front-end. L'objectif a donc été de dDémarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma émarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma ",
+    "codeLink": "https://github.com/jeff397/openclassroom-kasa",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      },
+      {
+        "name": "react",
+        "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+      },
+      {
+        "name": "figma",
+        "icon": "https://img.icons8.com/?size=100&id=WOEYzdYCr1UZ&format=png&color=000000"
+      },
+      {
+        "name": "node",
+        "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+      }
+    ]
   }
 ]
