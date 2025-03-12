@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.modal-content {
+  width: 60%;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.modal h2 {
+  padding-bottom: 30px;
+}
+
+.modal-content p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.technology-icons {
+  display: flex;
+  margin-top: 35px;
+  gap: 20px;
+}
+
+.tech-icon {
+  width: 50px;
+  height: 100%;
+}

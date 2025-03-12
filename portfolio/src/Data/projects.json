@@ -3,34 +3,127 @@
     "id": 1,
     "title": "Riding Cities",
     "image": "images/riding-cities.webp",
-    "description": "Pour cette mission, il m'a été demandé d'actualiser la page internet de Riding Cities, une association sportive qui promeut le skate en région. Il a donc fallu créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Puis modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes)."
+    "description": "Pour cette mission, il m'a été demandé d'actualiser la page internet de Riding Cities, une association sportive qui promeut le skate en région. Il a donc fallu créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Puis modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+    "link": "https://jeff397.github.io/openclassroom-projet2/",
+    "codeLink": "https://github.com/jeff397/openclassroom-projet2",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      }
+    ]
   },
 
   {
     "id": 2,
     "title": "Booki",
     "image": "images/booki.webp",
-    "description": "L’entreprise Booki a souhaité développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS. Afin d'accomplir ma mission, j'ai dû découper la maquette figma pour trouver la structure HTML adéquat. Puis à partir de cette structure, j'ai pu développer un code HTML en prenant en compte toute les spécifications techniques et procéder à la mise en forme et à la stylisation du site."
+    "description": "L’entreprise Booki a souhaité développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS. Afin d'accomplir ma mission, j'ai dû découper la maquette figma pour trouver la structure HTML adéquat. Puis à partir de cette structure, j'ai pu développer un code HTML en prenant en compte toute les spécifications techniques et procéder à la mise en forme et à la stylisation du site.",
+    "link": "https://jeff397.github.io/openclassroom-projet-3/",
+    "codeLink": "https://github.com/jeff397/openclassroom-projet-3",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      },
+      {
+        "name": "figma",
+        "icon": "https://img.icons8.com/?size=100&id=WOEYzdYCr1UZ&format=png&color=000000"
+      }
+    ]
   },
 
   {
     "id": 3,
     "title": "OhMyFood",
     "image": "images/ohmyfood.webp",
-    "description": "Cette mission a consisté à développer un site qui répertorie les menus de restaurants gastronomiques. Dans un esprit de simplification du code, j'ai utilisé SASS pour découper le code CSS en différents composants. Il m'a été demandé de développer ce site en mobile-first. J'ai donc commencé par la version mobile, puis tablette et enfin desktop. Il a fallu aussi intégrer des animations Css. "
+    "description": "Cette mission a consisté à développer un site qui répertorie les menus de restaurants gastronomiques. Dans un esprit de simplification du code, j'ai utilisé SASS pour découper le code CSS en différents composants. Il m'a été demandé de développer ce site en mobile-first. J'ai donc commencé par la version mobile, puis tablette et enfin desktop. Il a fallu aussi intégrer des animations Css. ",
+    "link": "https://jeff397.github.io/openclassroom-ohmyfood/index.html",
+    "codeLink": "https://github.com/jeff397/openclassroom-ohmyfood",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      },
+      {
+        "name": "figma",
+        "icon": "https://img.icons8.com/?size=100&id=WOEYzdYCr1UZ&format=png&color=000000"
+      },
+      {
+        "name": "sass",
+        "icon": "https://img.icons8.com/?size=100&id=axPniFSugeXC&format=png&color=000000"
+      }
+    ]
   },
 
   {
     "id": 4,
     "title": "Print-it",
     "image": "images/print-it.webp",
-    "description": "Une petite imprimerie familiale, Print-It, m'a demandé de dynamiser son site internet statique. Il m'a donc fallu créer un caroussel d'image en défilement infini en utilisant le langage Javascript. J'ai inséré des fléches cliquables gauche et droite permettant d'avancer ou de reculer. Puis, j'ai intégré des bullets points permettant de connaître la position de l'image affiché par rapport à l'image de départ."
+    "description": "Une petite imprimerie familiale, Print-It, m'a demandé de dynamiser son site internet statique. Il m'a donc fallu créer un caroussel d'image en défilement infini en utilisant le langage Javascript. J'ai inséré des fléches cliquables gauche et droite permettant d'avancer ou de reculer. Puis, j'ai intégré des bullets points permettant de connaître la position de l'image affiché par rapport à l'image de départ.",
+    "link": "https://jeff397.github.io/openclassroom-print-it/",
+    "codeLink": "https://github.com/jeff397/openclassroom-print-it",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      },
+      {
+        "name": "javascript",
+        "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+      }
+    ]
   },
 
   {
     "id": 5,
     "title": "Sophie Bluel",
-    "image": "images/sophie bluel.webp"
+    "image": "images/sophie bluel.webp",
+    "description": "La mission a consisté à concevoir un site portfolio pour une architecte d'intérieur. Avec l'aide de Figma et d'un kanban, j'ai pu réaliser la page de présentation des travaux de l'architecte, la page de connexion de l'administrateur du site et enfin la modale permettant d'uploader de nouveaux médias. De plus grâce à Swagger, j'ai pu communiquer avec une API afin d'uploader ou effacer les travaux.",
+    "codeLink": "https://github.com/jeff397/Sophie-Bluel",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
+      },
+
+      {
+        "name": "css",
+        "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
+      },
+      {
+        "name": "javascript",
+        "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+      },
+      {
+        "name": "figma",
+        "icon": "https://img.icons8.com/?size=100&id=WOEYzdYCr1UZ&format=png&color=000000"
+      },
+      {
+        "name": "node",
+        "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+      }
+    ]
   },
 
   {
