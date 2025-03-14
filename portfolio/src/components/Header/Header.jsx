@@ -11,6 +11,7 @@ function Header() {
         <a href="#hero">Accueil</a>
         <a href="#about">Présentation</a>
         <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
         <a href="/CV.pdf" download>
           Télécharger CV
         </a>
