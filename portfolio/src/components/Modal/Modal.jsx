@@ -1,3 +1,4 @@
+import "./../../Styles/keyframes.css";
 import "./modal.css";
 
 function Modal({ project, onClose }) {
