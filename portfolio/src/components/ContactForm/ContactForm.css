@@ -1,0 +1,91 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  width: calc(100% - 20px);
+  min-height: 150px;
+  resize: vertical;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+}
+
+.contact-form button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.success-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  margin-top: 150px;
+  animation: fadeIn 0.5s ease-in-out;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.success-message:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.linkedin-container {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.linkedin-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0077b5;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #005582;
+}
+
+.linkedin-icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
