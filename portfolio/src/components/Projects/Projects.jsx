@@ -13,6 +13,7 @@ function Projects() {
   const closeModal = () => {
     setSelectedProject(null);
   };
+
   return (
     <section id="projects">
       <p className="section-title">Mes projets</p>
@@ -34,7 +35,9 @@ function Projects() {
           </div>
         ))}
       </div>
-      <Modal project={selectedProject} onClose={closeModal} />
+      {selectedProject && (
+        <Modal project={selectedProject} onClose={closeModal} />
+      )}
     </section>
   );
 }
