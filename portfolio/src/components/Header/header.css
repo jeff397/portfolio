@@ -13,6 +13,10 @@ header {
   z-index: 1000;
 }
 
+header img {
+  width: 75px;
+}
+
 html {
   scroll-behavior: smooth;
 }
