@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Intégration et dynamisation",
+    "description": [
+      "HTML5.",
+      "CSS3.",
+      "SASS pour la structure et le style.",
+      "Javascript native.",
+      " et sa bibliothèque React pour des interfaces modernes et adaptables.",
+      "Redux pour la gestion des états des applications."
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Requêtes aux API et backends",
+    "description": [
+      "Swagger pour rédiger la documentation des routes.",
+      "MongoDB pour les bases de données."
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Utilitaires",
+    "description": [
+      "VSCode comme éditeur de code.",
+      "Figma pour étudier les maquettes issues du design.",
+      "Git pour l'organisation et la collaboration.",
+      "GitHub pour le versionnage ainsi que Vercel pour le déploiement de projets."
+    ]
+  }
+]

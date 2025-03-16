@@ -10,12 +10,12 @@ function Header() {
       <nav className="nav-links">
         <a href="#hero">Accueil</a>
         <a href="#about">Présentation</a>
+        <a href="#skills">Compétences</a>
         <a href="#projects">Projets</a>
         <a href="#contact">Contact</a>
         <a href="/CV.pdf" download>
           Télécharger CV
         </a>
-        <a href="#">Français</a>
       </nav>
     </header>
   );
