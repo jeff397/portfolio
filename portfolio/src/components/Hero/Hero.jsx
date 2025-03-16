@@ -21,7 +21,9 @@ function Hero() {
         >
           Github
         </a>
-        <button className="contact-button">Contactez moi</button>
+        <a href="#contact">
+          <button className="contact-button">Contactez moi</button>
+        </a>
       </div>
     </section>
   );
