@@ -37,3 +37,12 @@
   font-size: 20px;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 1200px) {
+  .about-content h3 {
+    font-size: 22px;
+  }
+  .about-content p {
+    font-size: 15px;
+  }
+}
