@@ -9,6 +9,10 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header>
       <div className="logo">
@@ -23,22 +27,22 @@ function Header() {
 
       {/* Navigation */}
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
-        <a href="#hero" className="nav-button">
+        <a href="#hero" className="nav-button" onClick={closeMenu}>
           Accueil
         </a>
-        <a href="#about" className="nav-button">
+        <a href="#about" className="nav-button" onClick={closeMenu}>
           Présentation
         </a>
-        <a href="#skills" className="nav-button">
+        <a href="#skills" className="nav-button" onClick={closeMenu}>
           Compétences
         </a>
-        <a href="#projects" className="nav-button">
+        <a href="#projects" className="nav-button" onClick={closeMenu}>
           Projets
         </a>
-        <a href="#contact" className="nav-button">
+        <a href="#contact" className="nav-button" onClick={closeMenu}>
           Contact
         </a>
-        <a href="/CV.pdf" download className="nav-button">
+        <a href="/CV.pdf" download className="nav-button" onClick={closeMenu}>
           <FaDownload className="download-icon" /> Mon CV
         </a>
       </nav>
