@@ -20,12 +20,10 @@ function Header() {
         <span className="logo-first-name">Jean-François</span>
       </div>
 
-      {/* Icône du menu burger */}
       <button className="menu-toggle" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      {/* Navigation */}
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
         <a href="#hero" className="nav-button" onClick={closeMenu}>
           Accueil
