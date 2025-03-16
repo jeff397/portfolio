@@ -13,8 +13,27 @@ header {
   z-index: 1000;
 }
 
-header img {
-  width: 75px;
+/* Logo.css */
+.logo {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+
+  line-height: 1.1;
+}
+
+.logo-first-name,
+.logo-last-name {
+  display: block;
+  font-size: 2rem;
+}
+
+.logo-first-name {
+  color: #333;
+  margin-bottom: -10px;
+}
+
+.logo-last-name {
+  margin-top: -10px;
 }
 
 html {
@@ -26,8 +45,69 @@ html {
   gap: 30px;
 }
 
-.nav-links a {
-  font-weight: 900;
-  color: black;
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
   text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.download-icon {
+  font-size: 1.2rem;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
 }

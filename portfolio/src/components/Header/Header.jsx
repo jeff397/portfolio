@@ -1,20 +1,45 @@
+import { useState } from "react";
+import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 import "./header.css";
-import logo from "../../../public/images/github.png";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header>
-      <a href="https://github.com/jeff397?tab=repositories">
-        <img src={logo} alt="Logo" className="logo" />
-      </a>
-      <nav className="nav-links">
-        <a href="#hero">Accueil</a>
-        <a href="#about">Présentation</a>
-        <a href="#skills">Compétences</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-        <a href="/CV.pdf" download>
-          Télécharger CV
+      <div className="logo">
+        <span className="logo-last-name">Delmotte</span>
+        <span className="logo-first-name">Jean-François</span>
+      </div>
+
+      {/* Icône du menu burger */}
+      <button className="menu-toggle" onClick={toggleMenu}>
+        {isOpen ? <FaTimes /> : <FaBars />}
+      </button>
+
+      {/* Navigation */}
+      <nav className={`nav-links ${isOpen ? "open" : ""}`}>
+        <a href="#hero" className="nav-button">
+          Accueil
+        </a>
+        <a href="#about" className="nav-button">
+          Présentation
+        </a>
+        <a href="#skills" className="nav-button">
+          Compétences
+        </a>
+        <a href="#projects" className="nav-button">
+          Projets
+        </a>
+        <a href="#contact" className="nav-button">
+          Contact
+        </a>
+        <a href="/CV.pdf" download className="nav-button">
+          <FaDownload className="download-icon" /> Mon CV
         </a>
       </nav>
     </header>
