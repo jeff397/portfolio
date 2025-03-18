@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  *#about {
+    padding-top: 12vh;
+  }
   .about-content {
     max-width: 100%;
   }
