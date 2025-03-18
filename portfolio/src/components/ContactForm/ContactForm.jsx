@@ -43,7 +43,6 @@ const ContactForm = ({ onSuccess }) => {
         </a>
       </div>
 
-      {/* Gestion des erreurs */}
       <ValidationError field="name" prefix="Nom" errors={state.errors} />
       <ValidationError field="email" prefix="Email" errors={state.errors} />
       <ValidationError field="message" prefix="Message" errors={state.errors} />
