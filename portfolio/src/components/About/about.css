@@ -42,6 +42,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #about {
+    padding-top: 24vh;
+  }
+
   .about-content h3 {
     font-size: 22px;
   }
