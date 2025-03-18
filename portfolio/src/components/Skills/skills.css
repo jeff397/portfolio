@@ -1,5 +1,6 @@
 #skills {
   scroll-margin-top: 150px;
+  margin: 0 50px;
 }
 
 .skills-title {
@@ -51,4 +52,22 @@
   font-size: 1rem;
   object-fit: contain;
   flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    gap: 20px;
+    padding: 100px 0;
+  }
+
+  .skill-card {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
 }

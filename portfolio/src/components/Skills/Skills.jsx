@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./skills.css";
 import skillsData from "../../Data/skills.json";
-import { FaCheckCircle } from "react-icons/fa"; // Importer une icône de FontAwesome
+import { FaCheckCircle } from "react-icons/fa";
 
 function Skills() {
   const [skills, setSkills] = useState([]);
