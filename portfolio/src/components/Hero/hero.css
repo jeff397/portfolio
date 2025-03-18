@@ -3,13 +3,28 @@
   height: 100vh;
   background-image: url("../../../public/images/office-932926_1280.webp");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
+  position: relative;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .hero-content {
-  padding: 230px 0 0 30px;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+
+  color: white;
+  text-align: left;
+  padding: 20px;
+  width: max-content;
 }
 
 .hero-title,
@@ -38,14 +53,17 @@
 }
 
 .hero-buttons {
+  position: absolute;
+  bottom: 245px;
+  left: 2%;
+  transform: translateX(-50%);
   display: flex;
-  padding-left: 30px;
   gap: 15px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   animation: fadeIn 0.5s ease-out forwards;
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 
 .github-button,
@@ -83,8 +101,8 @@
 
 @media screen and (max-width: 1200px) {
   #hero {
-    background-size: cover; /* S'assure que l'image couvre toute la largeur */
-    background-position: center center;
+    background-size: cover;
+    background-position: right;
   }
 
   .hero-title {
@@ -98,7 +116,26 @@
   }
 }
 
-.github-button,
-.contact-button {
-  font-size: 1rem;
+@media (max-width: 768px) {
+  #hero {
+    height: 70vh;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    line-height: 37px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  .github-button,
+  .contact-button {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    bottom: 139px;
+    left: 3%;
+  }
 }

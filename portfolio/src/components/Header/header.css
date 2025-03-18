@@ -82,10 +82,16 @@ html {
     transform: translateX(-50%);
   }
 
+  .logo-first-name,
+  .logo-last-name {
+    font-size: 1.5rem;
+  }
+
   .menu-toggle {
     display: block;
     position: absolute;
     right: 20px;
+    font-size: 1.5rem;
   }
 
   .nav-links {
@@ -109,5 +115,24 @@ html {
     width: 100%;
     text-align: center;
     padding: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-first-name,
+  .logo-last-name {
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    width: 135px;
+  }
+
+  .nav-button {
+    font-size: 0.8rem;
   }
 }

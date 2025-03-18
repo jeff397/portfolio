@@ -67,3 +67,29 @@
   width: 50px;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  .modal h2 {
+    font-size: 22px;
+  }
+
+  .modal-content p {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+
+  .tech-icon {
+    width: 40px;
+  }
+
+  .close {
+    font-size: 25px;
+  }
+}
