@@ -29,17 +29,17 @@ function About() {
       <div className={`about-content ${isVisible ? "rotate" : ""}`}>
         <h3>À propos de moi</h3>
         <p>
-          Afin de me reconvertir professionnellementn j'ai décidé de spécialiser
-          dans le développement web. Après avoir travaillé dans un autre
-          domaine, j'ai décidé de me réorienter vers un métier qui me passionne
-          : la création de sites web et d'applications. Afin d'acquérir les
-          compétences nécessaires, j'ai suivi une formation complète sur
-          OpenClassrooms, une plateforme de qualité qui m'a permis de maîtriser
-          les technologies modernes du développement web, notamment React, HTML,
-          CSS, JavaScript, ainsi que les principes de conception d'interface
-          utilisateur. Grâce à cette formation, j'ai développé une solide base
-          technique et une compréhension approfondie des bonnes pratiques en
-          développement. Bien que je n'aie pas encore d'expérience
+          Afin de me reconvertir professionnellement, j'ai décidé de me
+          spécialiser dans le développement web. Après avoir travaillé dans un
+          autre domaine, j'ai décidé de me réorienter vers un métier qui me
+          passionne : la création de sites web et d'applications. Afin
+          d'acquérir les compétences nécessaires, j'ai suivi une formation
+          complète sur OpenClassrooms, une plateforme de qualité qui m'a permis
+          de maîtriser les technologies modernes du développement web, notamment
+          React, HTML, CSS, JavaScript, ainsi que les principes de conception
+          d'interface utilisateur. Grâce à cette formation, j'ai développé une
+          solide base technique et une compréhension approfondie des bonnes
+          pratiques en développement. Bien que je n'aie pas encore d'expérience
           professionnelle dans le domaine, mon parcours d'apprentissage m'a
           permis de réaliser plusieurs projets personnels où j'ai appliqué mes
           compétences pour créer des sites web interactifs et responsive. Je
