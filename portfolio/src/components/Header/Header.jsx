@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -40,9 +41,15 @@ function Header() {
         <a href="#contact" className="nav-button" onClick={closeMenu}>
           Contact
         </a>
-        <a href="/CV.pdf" download className="nav-button" onClick={closeMenu}>
+        <Link
+          to="/cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-button"
+          onClick={closeMenu}
+        >
           <FaDownload className="download-icon" /> Mon CV
-        </a>
+        </Link>
       </nav>
     </header>
   );
