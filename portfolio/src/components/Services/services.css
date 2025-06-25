@@ -2,6 +2,7 @@
   padding: 80px 20px;
   background: linear-gradient(135deg, #f0f4f8 0%, #e0e7ee 100%);
   text-align: center;
+  scroll-margin-top: 110px;
 }
 
 .services-title {

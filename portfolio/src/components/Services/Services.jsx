@@ -28,7 +28,7 @@ const services = [
 
 function Services() {
   return (
-    <section id="services" className="services-section">
+    <section id="Services" className="services-section">
       <h2 className="services-title">Mes services</h2>
       <div className="services-grid">
         {services.map((service, index) => (
