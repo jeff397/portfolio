@@ -14,6 +14,7 @@ function Header() {
     setIsOpen(false);
   };
 
+  console.log("Header vraiment modifié");
   return (
     <header>
       <div className="logo">
@@ -51,7 +52,6 @@ function Header() {
           className="nav-button"
           onClick={closeMenu}
         >
-          console.log("Header vraiment modifié");
           <FaDownload className="download-icon" /> Mon CV
         </Link>
       </nav>
