@@ -14,22 +14,18 @@ function Header() {
     setIsOpen(false);
   };
 
-  console.log("Header vraiment modifié");
   return (
     <header>
-      <div className="logo">
+      <a href="#hero" className="logo" onClick={closeMenu}>
         <span className="logo-last-name">Delmotte</span>
         <span className="logo-first-name">Jean-François</span>
-      </div>
+      </a>
 
       <button className="menu-toggle" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
-        <a href="#hero" className="nav-button" onClick={closeMenu}>
-          Accueil
-        </a>
         <a href="#about" className="nav-button" onClick={closeMenu}>
           Présentation
         </a>
