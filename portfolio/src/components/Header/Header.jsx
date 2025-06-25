@@ -38,6 +38,9 @@ function Header() {
         <a href="#projects" className="nav-button" onClick={closeMenu}>
           Projets
         </a>
+        <a href="#Services" className="nav-button" onClick={closeMenu}>
+          Mes services
+        </a>
         <a href="#contact" className="nav-button" onClick={closeMenu}>
           Contact
         </a>
