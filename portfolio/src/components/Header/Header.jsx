@@ -38,18 +38,21 @@ function Header() {
         <a href="#Services" className="nav-button" onClick={closeMenu}>
           Mes services
         </a>
+        <a href="#offres" className="nav-button" onClick={closeMenu}>
+          Mes tarifs
+        </a>
         <a href="#contact" className="nav-button" onClick={closeMenu}>
           Contact
         </a>
-        <Link
-          to="/cv.pdf"
+        <a
+          href="/cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-button"
           onClick={closeMenu}
         >
           <FaDownload className="download-icon" /> Mon CV
-        </Link>
+        </a>
       </nav>
     </header>
   );
