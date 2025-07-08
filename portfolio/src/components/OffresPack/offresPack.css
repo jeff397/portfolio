@@ -1,0 +1,97 @@
+.offres-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.offres-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.offres-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.offres-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.offres-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .offres-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.offre-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  text-align: left;
+}
+
+.offre-card h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.offre-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4b32d0;
+  margin-bottom: 15px;
+}
+
+.offre-desc {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.offre-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.offre-card ul li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.offre-delai {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.offre-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b32d0;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.offre-btn:hover {
+  background-color: #37249e;
+}
