@@ -17,7 +17,7 @@ header {
   font-family: "Arial", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: #000;  
+  color: #0000;
   line-height: 1.1;
 }
 
@@ -25,7 +25,6 @@ header {
 .logo-last-name {
   display: block;
   font-size: 2rem;
-  t
 }
 
 .logo-first-name {
