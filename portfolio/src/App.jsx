@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
@@ -18,6 +19,26 @@ function App() {
         path="/"
         element={
           <>
+            <Helmet>
+              <title>Delmotte Jean-François | Développeur Web</title>
+              <meta
+                name="description"
+                content="Portfolio de Delmotte Jean-François, développeur web freelance spécialisé en React, SEO et sites modernes."
+              />
+              <meta
+                property="og:title"
+                content="Delmotte Jean-François | Développeur Web"
+              />
+              <meta
+                property="og:description"
+                content="Découvrez le portfolio de Delmotte Jean-François, développeur web basé en France."
+              />
+              <meta
+                property="og:url"
+                content="https://portfolio-8awh.vercel.app"
+              />
+            </Helmet>
+
             <Header />
             <main>
               <Hero />
