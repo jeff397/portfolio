@@ -38,24 +38,19 @@ function App() {
                 content="https://portfolio-8awh.vercel.app"
               />
 
-              {/* ✅ Données structurées JSON-LD */}
               <script type="application/ld+json">
-                {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Delmotte Jean-François",
-        "jobTitle": "Développeur Web",
-        "url": "https://portfolio-8awh.vercel.app",
-        "sameAs": [
-          "https://github.com/jeff397"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "FR"
-        }
-      }
-    `}
+                {JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "Person",
+                  name: "Delmotte Jean-François",
+                  jobTitle: "Développeur Web",
+                  url: "https://portfolio-8awh.vercel.app",
+                  sameAs: ["https://github.com/jeff397"],
+                  address: {
+                    "@type": "PostalAddress",
+                    addressCountry: "FR",
+                  },
+                })}
               </script>
             </Helmet>
 
