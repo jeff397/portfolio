@@ -22,3 +22,33 @@
   transform: scale(1.1);
   color: #0077b5;
 }
+
+@media screen and (max-width: 1200px) {
+  .social-icon {
+    font-size: 26px;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social-icon {
+    font-size: 22px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .social-icon {
+    font-size: 18px;
+  }
+
+  .social-links {
+    gap: 8px;
+  }
+}

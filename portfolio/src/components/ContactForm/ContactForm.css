@@ -89,3 +89,96 @@
   font-size: 40px;
   margin-right: 10px;
 }
+
+/* ------ MEDIA QUERIES ------ */
+
+/* Écrans ≤1200px */
+@media screen and (max-width: 1200px) {
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 9px 18px;
+    width: calc(100% - 18px);
+  }
+
+  .success-message {
+    font-size: 1.3rem;
+    margin-top: 120px;
+  }
+
+  .linkedin-link {
+    font-size: 1.1rem;
+  }
+
+  .linkedin-icon {
+    font-size: 36px;
+  }
+}
+
+/* Écrans ≤768px (tablettes) */
+@media screen and (max-width: 768px) {
+  .contact-form {
+    align-items: center;
+  }
+
+  .contact-form label {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    width: 100%;
+  }
+
+  .contact-form textarea {
+    min-height: 130px;
+  }
+
+  .success-message {
+    font-size: 1.2rem;
+    margin-top: 100px;
+  }
+
+  .linkedin-link {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .linkedin-icon {
+    font-size: 32px;
+    margin-right: 8px;
+  }
+}
+
+/* Écrans ≤480px (mobiles) */
+@media screen and (max-width: 480px) {
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.85rem;
+    padding: 7px 14px;
+  }
+
+  .contact-form textarea {
+    min-height: 110px;
+  }
+
+  .success-message {
+    font-size: 1rem;
+    margin-top: 80px;
+  }
+
+  .linkedin-link {
+    font-size: 0.9rem;
+  }
+
+  .linkedin-icon {
+    font-size: 25px;
+    margin-right: 6px;
+  }
+}

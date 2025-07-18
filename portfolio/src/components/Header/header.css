@@ -25,10 +25,10 @@ header {
 .logo-last-name {
   display: block;
   font-size: 2rem;
+  color: #333;
 }
 
 .logo-first-name {
-  color: #333;
   margin-bottom: -10px;
 }
 
@@ -76,6 +76,7 @@ html {
   cursor: pointer;
 }
 
+/* ===== Responsive - Écran ≤1200px ===== */
 @media screen and (max-width: 1200px) {
   .logo {
     position: absolute;
@@ -117,8 +118,18 @@ html {
     text-align: center;
     padding: 12px;
   }
+
+  .nav-button {
+    font-size: 0.9rem;
+    padding: 9px 14px;
+  }
+
+  .download-icon {
+    font-size: 1rem;
+  }
 }
 
+/* ===== Responsive - Écran ≤768px ===== */
 @media screen and (max-width: 768px) {
   .logo-first-name,
   .logo-last-name {
@@ -126,14 +137,54 @@ html {
   }
 
   .menu-toggle {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .nav-links {
-    width: 135px;
+    width: 150px;
+    top: 70px;
+    gap: 10px;
   }
 
   .nav-button {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+
+  .download-icon {
+    font-size: 0.9rem;
+  }
+}
+
+/* ===== Responsive - Écran ≤480px ===== */
+@media screen and (max-width: 480px) {
+  header {
+    height: 90px;
+    padding: 10px 20px;
+  }
+
+  .logo-first-name,
+  .logo-last-name {
+    font-size: 0.9rem;
+  }
+
+  .menu-toggle {
+    font-size: 1rem;
+    right: 15px;
+  }
+
+  .nav-links {
+    width: 130px;
+    top: 65px;
+    gap: 8px;
+  }
+
+  .nav-button {
+    font-size: 0.75rem;
+    padding: 7px 10px;
+  }
+
+  .download-icon {
     font-size: 0.8rem;
   }
 }

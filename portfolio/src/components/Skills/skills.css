@@ -55,19 +55,74 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .skills-title {
-    font-size: 22px;
+  #skills {
+    margin: 0 30px;
+  }
+
+  .skills-container {
+    padding: 80px 40px;
+    gap: 40px;
+  }
+
+  .skill-card {
+    flex: 1 1 45%;
+  }
+
+  .skill-card li {
+    font-size: 0.95rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  #skills {
+    margin: 0 20px;
+  }
+
   .skills-container {
-    gap: 20px;
-    padding: 100px 0;
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 30px;
   }
 
   .skill-card {
-    max-width: 100%;
     flex: 1 1 100%;
+  }
+
+  .skill-card li {
+    font-size: 0.9rem;
+  }
+
+  .skill-card .icon {
+    font-size: 0.9rem;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #skills {
+    margin: 0 10px;
+  }
+
+  .skills-container {
+    padding: 40px 10px;
+    gap: 20px;
+  }
+
+  .skill-card {
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .skill-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .skill-card li {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+
+  .skill-card .icon {
+    font-size: 0.85rem;
   }
 }

@@ -26,13 +26,7 @@
 .offres-grid {
   display: grid;
   gap: 30px;
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 768px) {
-  .offres-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .offre-card {
@@ -94,4 +88,106 @@
 
 .offre-btn:hover {
   background-color: #37249e;
+}
+
+@media screen and (max-width: 1200px) {
+  .offres-title {
+    font-size: 2.2rem;
+  }
+
+  .offres-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .offres-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offre-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .offre-price {
+    font-size: 1.2rem;
+  }
+
+  .offre-desc,
+  .offre-card ul li,
+  .offre-delai {
+    font-size: 0.9rem;
+  }
+
+  .offre-btn {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offres-title {
+    font-size: 1.8rem;
+  }
+
+  .offres-subtitle {
+    font-size: 1rem;
+  }
+
+  .offres-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offre-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .offre-price {
+    font-size: 1.1rem;
+  }
+
+  .offre-desc,
+  .offre-card ul li,
+  .offre-delai {
+    font-size: 0.85rem;
+  }
+
+  .offre-btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .offres-title {
+    font-size: 1.5rem;
+  }
+
+  .offres-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .offres-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .offre-card {
+    padding: 20px;
+  }
+
+  .offre-card h3 {
+    font-size: 1rem;
+  }
+
+  .offre-price {
+    font-size: 1rem;
+  }
+
+  .offre-desc,
+  .offre-card ul li,
+  .offre-delai {
+    font-size: 0.8rem;
+  }
+
+  .offre-btn {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
 }

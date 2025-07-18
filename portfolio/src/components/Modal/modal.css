@@ -10,6 +10,7 @@
   align-items: center;
   margin-top: 100px;
   animation: expandIn 0.5s ease-out;
+  z-index: 999;
 }
 
 .modal-content {
@@ -23,6 +24,7 @@
 
 .modal h2 {
   padding-bottom: 30px;
+  font-size: 28px;
 }
 
 .modal-content p {
@@ -61,16 +63,37 @@
   display: flex;
   margin-top: 35px;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .tech-icon {
   width: 50px;
-  height: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .modal-content {
+    width: 75%;
+    padding: 40px;
+  }
+
+  .modal h2 {
+    font-size: 26px;
+  }
+
+  .modal-content p {
+    font-size: 17px;
+  }
+
+  .tech-icon {
+    width: 45px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .modal-content {
-    width: 100%;
+    width: 90%;
+    padding: 30px;
   }
 
   .modal h2 {
@@ -83,6 +106,7 @@
 
   .button {
     font-size: 14px;
+    padding: 8px 12px;
   }
 
   .tech-icon {
@@ -91,5 +115,33 @@
 
   .close {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .modal h2 {
+    font-size: 18px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .tech-icon {
+    width: 30px;
+  }
+
+  .close {
+    font-size: 22px;
   }
 }

@@ -4,7 +4,7 @@
   background-image: url("../../../public/images/office-932926_1280.webp");
   background-size: cover;
   background-repeat: no-repeat;
-
+  background-position: center;
   position: relative;
 }
 
@@ -20,7 +20,6 @@
   position: absolute;
   top: 30%;
   left: 0%;
-
   color: white;
   text-align: left;
   padding: 20px;
@@ -40,12 +39,10 @@
 }
 
 .hero-title {
-  width: 0;
   animation: typing 3s steps(20, end) forwards;
 }
 
 .hero-subtitle {
-  width: 0;
   font-size: 1.5rem;
   font-weight: 500;
   animation: typing 3s steps(20, end) forwards;
@@ -56,11 +53,10 @@
   position: absolute;
   bottom: 245px;
   left: 2%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(20px);
   display: flex;
   gap: 15px;
   opacity: 0;
-  transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   animation: fadeIn 0.5s ease-out forwards;
   animation-delay: 6s;
@@ -101,41 +97,92 @@
 
 @media screen and (max-width: 1200px) {
   #hero {
-    background-size: cover;
     background-position: right;
   }
 
   .hero-title {
     font-size: 3rem;
     line-height: 3.5rem;
-    padding-bottom: 0;
+    padding-bottom: 10px;
   }
 
   .hero-subtitle {
     font-size: 1.2rem;
   }
+
+  .github-button,
+  .contact-button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+
+  .hero-buttons {
+    bottom: 180px;
+    left: 4%;
+  }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #hero {
     height: 70vh;
+    background-position: center;
+  }
+
+  .hero-content {
+    padding: 15px;
+    top: 25%;
   }
 
   .hero-title {
     font-size: 2rem;
-    line-height: 37px;
+    line-height: 2.5rem;
   }
 
   .hero-subtitle {
-    font-size: 1.2rem;
-  }
-  .github-button,
-  .contact-button {
     font-size: 1rem;
   }
 
+  .github-button,
+  .contact-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
   .hero-buttons {
-    bottom: 139px;
-    left: 3%;
+    bottom: 130px;
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #hero {
+    height: 60vh;
+  }
+
+  .hero-content {
+    top: 20%;
+    padding: 10px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .github-button,
+  .contact-button {
+    font-size: 0.9rem;
+    padding: 7px 14px;
+  }
+
+  .hero-buttons {
+    bottom: 100px;
+    left: 8%;
+    gap: 10px;
+    flex-direction: column;
   }
 }

@@ -18,7 +18,6 @@
   padding: 5vh 50px;
   margin: auto;
   max-width: 80%;
-
   background: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   opacity: 0;
@@ -49,23 +48,37 @@
   .about-content h3 {
     font-size: 22px;
   }
+
   .about-content p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  *#about {
+  #about {
     padding-top: 12vh;
   }
+
   .about-content {
     max-width: 100%;
+    padding: 5vh 30px;
   }
 
   .about-content h3 {
     font-size: 20px;
   }
+
   .about-content p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-content h3 {
+    font-size: 18px;
+  }
+
+  .about-content p {
+    font-size: 14.5px;
   }
 }
