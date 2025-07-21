@@ -27,28 +27,40 @@ function About() {
   return (
     <section id="about">
       <div className={`about-content ${isVisible ? "rotate" : ""}`}>
-        <h3>À propos de moi</h3>
+        <h2>À propos de moi</h2>
         <p>
-          Afin de me reconvertir professionnellement, j'ai décidé de me
-          spécialiser dans le développement web. Après avoir travaillé dans un
-          autre domaine, j'ai décidé de me réorienter vers un métier qui me
-          passionne : la création de sites web et d'applications. Afin
-          d'acquérir les compétences nécessaires, j'ai suivi une formation
-          complète sur OpenClassrooms, une plateforme de qualité qui m'a permis
-          de maîtriser les technologies modernes du développement web, notamment
-          React, HTML, CSS, JavaScript, ainsi que les principes de conception
-          d'interface utilisateur. Grâce à cette formation, j'ai développé une
-          solide base technique et une compréhension approfondie des bonnes
-          pratiques en développement. Bien que je n'aie pas encore d'expérience
-          professionnelle dans le domaine, mon parcours d'apprentissage m'a
-          permis de réaliser plusieurs projets personnels où j'ai appliqué mes
-          compétences pour créer des sites web interactifs et responsive. Je
-          suis motivé, curieux et toujours prêt à relever de nouveaux défis.
-          Aujourd'hui, je cherche à mettre mes compétences en pratique et à
-          travailler dans un environnement stimulant, où je pourrais continuer à
-          apprendre et à contribuer à des projets passionnants. Mon objectif est
-          de devenir un développeur web compétent et de construire une carrière
-          durable dans ce domaine.
+          Je m'appelle <strong>Jean-François Delmotte</strong> et je suis un{" "}
+          <strong>développeur web freelance</strong> basé dans{" "}
+          <strong>les Hauts-de-France</strong>, spécialisé dans la{" "}
+          <strong>création de sites web modernes et responsives</strong> avec
+          les technologies
+          <strong> React, JavaScript, HTML et CSS</strong>.
+        </p>
+
+        <p>
+          Après une reconversion professionnelle, j'ai suivi une formation
+          complète sur OpenClassrooms, qui m’a permis d'acquérir les compétences
+          nécessaires pour concevoir des interfaces performantes, accessibles et
+          adaptées à tous les supports.
+        </p>
+
+        <p>
+          J’ai réalisé plusieurs projets personnels qui m’ont permis d'appliquer
+          mes connaissances en développement web, en respectant les bonnes
+          pratiques de performance, de responsive design et de référencement.
+        </p>
+
+        <p>
+          Aujourd’hui, je propose mes services de{" "}
+          <strong>développement web</strong> aux
+          <strong> indépendants, petites entreprises, artisans</strong> ou{" "}
+          <strong>coachs</strong> qui souhaitent avoir une présence en ligne
+          professionnelle.
+        </p>
+
+        <p>
+          👉 <strong>Contactez-moi</strong> si vous avez un projet de site
+          internet ou souhaitez améliorer votre visibilité en ligne !
         </p>
       </div>
     </section>
