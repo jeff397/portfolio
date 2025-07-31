@@ -30,8 +30,8 @@ function About() {
         <h2>À propos de moi</h2>
         <p>
           Je m'appelle <strong>Jean-François Delmotte</strong> et je suis un{" "}
-          <strong>développeur web freelance</strong> basé dans{" "}
-          <strong>les Hauts-de-France</strong>, spécialisé dans la{" "}
+          <strong>développeur web freelance</strong> basé à <strong>Rue</strong>{" "}
+          dans <strong>les Hauts-de-France</strong>, spécialisé dans la{" "}
           <strong>création de sites web modernes et responsives</strong> avec
           les technologies
           <strong> React, JavaScript, HTML et CSS</strong>.
