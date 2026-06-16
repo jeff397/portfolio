@@ -20,7 +20,7 @@ function App() {
         element={
           <>
             <Helmet>
-              <title>Delmotte Jean-François | Développeur Web</title>
+              <title>Delmotte Jean-François | Développeur Web-test</title>
               <meta
                 name="description"
                 content="Portfolio de Delmotte Jean-François, développeur web freelance spécialisé en React, SEO et sites modernes."
