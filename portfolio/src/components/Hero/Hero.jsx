@@ -11,7 +11,9 @@ function Hero() {
             <br />
             Jean-François
           </h1>
-          <h2 className="hero-subtitle">Développeur web/intégrateur web</h2>
+          <h2 className="hero-subtitle">
+            Développeur web/intégrateur web - test
+          </h2>
         </div>
         <div className="hero-buttons">
           <a
