@@ -1,5 +1,27 @@
 [
   {
+    "id": 1,
+    "title": "Maison Artisanale - Site Vitrine",
+    "image": "images/artisanat.png",
+    "description": "Développement d'un site vitrine haut de gamme et immersif pour un atelier d'artisanat d'art. L'accent a été mis sur une esthétique épurée, des performances brutes et une optimisation SEO maximale afin d'offrir une expérience utilisateur fluide et un positionnement premium.",
+    "link": "https://timely-macaron-6d9309.netlify.app",
+    "codeLink": "https://github.com/jeff397/artisanat",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "icon": "https://img.icons8.com/?size=100&id=rHv9as0MwU2O&format=png&color=000000"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "https://img.icons8.com/?size=100&id=CIAZ7jAh6Bh4&format=png&color=000000"
+      },
+      {
+        "name": "Figma",
+        "icon": "https://img.icons8.com/?size=100&id=WOEYzdYCr1UZ&format=png&color=000000"
+      }
+    ]
+  },
+  {
     "id": 2,
     "title": "Booki",
     "image": "images/booki.webp",
@@ -11,7 +33,6 @@
         "name": "HTML",
         "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
-
       {
         "name": "css",
         "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
@@ -22,7 +43,6 @@
       }
     ]
   },
-
   {
     "id": 3,
     "title": "OhMyFood",
@@ -35,7 +55,6 @@
         "name": "HTML",
         "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
-
       {
         "name": "css",
         "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
@@ -50,7 +69,6 @@
       }
     ]
   },
-
   {
     "id": 4,
     "title": "Print-it",
@@ -63,7 +81,6 @@
         "name": "HTML",
         "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
-
       {
         "name": "css",
         "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
@@ -74,7 +91,6 @@
       }
     ]
   },
-
   {
     "id": 5,
     "title": "Sophie Bluel",
@@ -86,7 +102,6 @@
         "name": "HTML",
         "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
-
       {
         "name": "css",
         "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
@@ -105,7 +120,6 @@
       }
     ]
   },
-
   {
     "id": 6,
     "title": "Kasa",
@@ -117,7 +131,6 @@
         "name": "HTML",
         "icon": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
-
       {
         "name": "css",
         "icon": "https://img.icons8.com/?size=100&id=B5O03w2IoQSa&format=png&color=000000"
