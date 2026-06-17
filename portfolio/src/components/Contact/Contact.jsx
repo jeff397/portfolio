@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ContactForm from "../ContactForm/ContactForm";
-import "./Contact.css";
+import "./contact.css";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
